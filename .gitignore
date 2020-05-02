@@ -1,2 +1,3 @@
 recordings/
 recordings/*
+__pycache__
