@@ -7,7 +7,7 @@ def fitness(controlImg, testImg):
 
 
     
-def getPopulationDnaFitnesses(populationDna,controlImg):
+def calculateFitnesses(populationDna,controlImg):
     
     (m,n,l) = populationDna.shape
     fitnesses = []
@@ -18,9 +18,9 @@ def getPopulationDnaFitnesses(populationDna,controlImg):
     
     return fitnesses
     
-def orderPopulationDnaByFitness(populationDna,controlImg):
+def orderByFitness(populationDna,controlImg):
     
-    fitnesses = getPopulationDnaFitnesses(populationDna,controlImg)
+    fitnesses = calculateFitnesses(populationDna,controlImg)
     
     orderIdx = np.argsort(fitnesses)
     
