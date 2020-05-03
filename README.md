@@ -27,22 +27,15 @@ Required modules are
 - numpy
 - matplotlib
 - scikit-image
+- jupyter
 
 ### Installing
 
-For installing then run the followin:
+For installing then run the following:
 
 ```
-$ pip install numpy matplotlib scikit-image
+$ pip install numpy matplotlib scikit-image jupyter
 ```
-
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 
 ## Author
 
