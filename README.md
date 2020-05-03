@@ -33,7 +33,7 @@ This code was originally written as a homework for the Computational Physics II 
 
 - The fitness for each DNA inside a given population is calculated. The fittest DNA of the population is retrieved and stored to be used later in the evolution process and create fitter breadths.
 
-- After the first random population is created, the next loop-cycles will use the fitter result and merge it with new random DNAs to get a new/different population. Again, the fittest DNA of the population is retrieved and stored. This process goes on and on until a determined number of iterations is achieved. 
+- After the first random population is created, the next loop-cycles will use the fitter result and merge it (via a breeding algorithm) with new random DNAs to get a new/different population. Again, the fittest DNA of the population is retrieved and stored. This process goes on and on until a determined number of iterations is achieved. 
 
 The result is a composition of random triangles making a rough recreation of the original Gioconda.
 
