@@ -1,10 +1,53 @@
+# Gioconda Reconstruction
 
-**How to run**
+This is a Python 3 Genetic Algorithm implementation for black and white reconstruction of images using random triangles, specifically featuring Da Vinci's artwork La Gioconda.
 
-File monalisa-reconstruction-main.ipynb contains the results of the reconstruction. Required modules are
+
+## Getting Started
+
+Clone the repository
+
+```
+$ git clone https://github.com/gerarddo/gioconda-reconstruction.git 
+```
+Change directory
+
+```
+$ cd gioconda-reconstruction 
+```
+
+Run Jupyter
+```
+$ jupyter notebook
+```
+
+### Prerequisites
+
+Required modules are
 - numpy
 - matplotlib
 - scikit-image
+
+### Installing
+
+For installing then run the followin:
+
+```
+$ pip install numpy matplotlib scikit-image
+```
+
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+
+## Author
+
+* **Gerardo Mijares** - *Initial work* - [lapsusdev](https://lapsusdev.com)
+
 
 **Directory structure**
 - assets: contains the used images as .png files. 
