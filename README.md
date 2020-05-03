@@ -41,11 +41,6 @@ $ pip install numpy matplotlib scikit-image jupyter
 - assets: contains the used images as .png files. 
 - tools: contains modules and classes that work together to achieve the final result.
 
-
-## Author
-
-* **Gerardo Mijares** - [lapsusdev](https://lapsusdev.com)
-
 ## About
 
 **About Genetic Algorithms**
@@ -77,3 +72,8 @@ The result is a composition of random triangles making a rough recreation of the
 
 
 **TODO**: Add flowcharts
+
+
+## Author
+
+* **Gerardo Mijares** - [lapsusdev](https://lapsusdev.com)
