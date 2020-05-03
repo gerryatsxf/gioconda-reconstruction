@@ -37,14 +37,16 @@ For installing then run the following:
 $ pip install numpy matplotlib scikit-image jupyter
 ```
 
+### Directory structure
+- assets: contains the used images as .png files. 
+- tools: contains modules and classes that work together to achieve the final result.
+
+
 ## Author
 
 * **Gerardo Mijares** - [lapsusdev](https://lapsusdev.com)
 
-
-**Directory structure**
-- assets: contains the used images as .png files. 
-- tools: contains modules and classes that work together to achieve the final result.
+## About
 
 **About Genetic Algorithms**
 
