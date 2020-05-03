@@ -6,7 +6,7 @@ This is a Python 3 Genetic Algorithm implementation for black and white reconstr
 
 
 
-Check out the [visual demo](https://www.youtube.com/watch?v=Hbn5oWVOp3A&feature=youtu.be).
+Check out the [visual demo](https://youtu.be/8Frn09aKMqI).
 
 
 
