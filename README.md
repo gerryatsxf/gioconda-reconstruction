@@ -27,13 +27,13 @@ Sources:
 
 This code was originally written as a homework for the Computational Physics II class at ITESM and has been evolving along with my coding skills. It works as follows:
 
-The original image is converted to grayscale and used to determine the fitness of a given matrix with the same dimensions and whose elements are also between 0 and 1 (I call this matrix the DNA). Let's define m and n as the number of rows and columns of the matrix respectively.
+- The original image is converted to grayscale and used to determine the fitness of a given matrix with the same dimensions and whose elements are also between 0 and 1 (I call this matrix the DNA). Let's define m and n as the number of rows and columns of the matrix respectively.
 
-At the start of the main loop of the algorithm, k random DNA matrices are created and stored in an array/matrix/tensor of dimensions (m,n,k). We call this a population because it is a cumulate of multiple DNAs. 
+- At the start of the main loop of the algorithm, k random DNA matrices are created and stored in an array/matrix/tensor of dimensions (m,n,k). We call this a population because it is a cumulate of multiple DNAs. 
 
-The fitness for each DNA inside a given population is calculated. The fittest DNA of the population is retrieved and stored to be used later in the evolution process and create fitter breadths.
+- The fitness for each DNA inside a given population is calculated. The fittest DNA of the population is retrieved and stored to be used later in the evolution process and create fitter breadths.
 
-After the first random population is created, the next loop-cycles will use the fitter result and merge it with new random DNAs to get a new/different population. Again, the fittest DNA of the population is retrieved and stored. This process goes on and on until a determined number of iterations is achieved. 
+- After the first random population is created, the next loop-cycles will use the fitter result and merge it with new random DNAs to get a new/different population. Again, the fittest DNA of the population is retrieved and stored. This process goes on and on until a determined number of iterations is achieved. 
 
 The result is a composition of random triangles making a rough recreation of the original Gioconda.
 
