@@ -2,7 +2,14 @@
 
 This is a Python 3 Genetic Algorithm implementation for black and white reconstruction of images using random triangles, specifically featuring Da Vinci's artwork La Gioconda.
 
+![Gioconda reconstructed using Genetic Algorithms](assets/gioconda-compared.png)
+
+
+
 Check out the [visual demo](https://www.youtube.com/watch?v=Hbn5oWVOp3A&feature=youtu.be).
+
+
+
 
 ## Getting Started
 
