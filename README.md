@@ -39,7 +39,7 @@ $ pip install numpy matplotlib scikit-image jupyter
 
 ## Author
 
-* **Gerardo Mijares** - *Initial work* - [lapsusdev](https://lapsusdev.com)
+* **Gerardo Mijares** - [lapsusdev](https://lapsusdev.com)
 
 
 **Directory structure**
