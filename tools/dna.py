@@ -18,7 +18,7 @@ def generateRandomDna(dnaLength,m,n):
     
     return randomDna
 
-def mergePopulationOnDna(dna,population,m,n):
+def merge(dna,population,m,n):
     (p,q) = population.shape
     populationDna = np.zeros((m,n))
     for k in range(q):
@@ -37,7 +37,7 @@ def mergeIndividualOnDna(dna,individual,m,n):
     return blend.matrices(polygon,dna)
     
 
-def generateRandomPop(popSize,m,n):
+def randomPop(popSize,m,n):
     gray = np.random.rand(1,popSize)
     
 #     then generate a random matrix in the [0,m-1] and [0,n-1] intervals for the vertices of the triangles

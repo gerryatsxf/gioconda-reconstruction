@@ -26,6 +26,9 @@ class Load:
             print('Loading ' + filePath)
             data = img.imread(filePath)
             self.toCache(KEY, data)   
+        
+        print() # add spacing
+        
         return data
     
     def audio(self, key, visual = False):

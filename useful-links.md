@@ -8,3 +8,6 @@ https://matplotlib.org/gallery/animation/basic_example_writer_sgskip.html?highli
 
 
 https://stackoverflow.com/questions/6568007/how-do-i-save-and-restore-multiple-variables-in-python
+
+
+https://stackoverflow.com/questions/55926124/how-do-i-create-an-empty-pickle-file-with-a-given-name

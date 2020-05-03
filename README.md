@@ -2,6 +2,7 @@
 
 This is a Python 3 Genetic Algorithm implementation for black and white reconstruction of images using random triangles, specifically featuring Da Vinci's artwork La Gioconda.
 
+Check out the [visual demo](https://www.youtube.com/watch?v=Hbn5oWVOp3A&feature=youtu.be).
 
 ## Getting Started
 
@@ -31,7 +32,7 @@ Required modules are
 
 ### Installing
 
-For installing then run the following:
+Run the following for installing modules:
 
 ```
 $ pip install numpy matplotlib scikit-image jupyter
