@@ -103,9 +103,12 @@ class Workspace:
                 
         return isExistent
                             
-    def dump(self,pklPath,evolution):
-        # # uncomment if you want to load progress
-        with open(pklPath, 'rb') as file: 
-            evolution = pickle.load(file)
+    def dump(self,keyword,evolution):
+
+        basePath = self.folderPath + '/' + keyword
+        pklPath = basePath + '.pkl'
+
+        with open(pklPath, 'wb') as file: 
+            pickle.dump(evolution,file)
 
 ws = Workspace('workspace')
