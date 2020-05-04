@@ -105,7 +105,7 @@ class Workspace:
                             
     def dump(self,pklPath,evolution):
         # # uncomment if you want to load progress
-        # with open(pklPath, 'rb') as file: 
-        #     evolution = pickle.load(file)
-            
+        with open(pklPath, 'rb') as file: 
+            evolution = pickle.load(file)
+
 ws = Workspace('workspace')
