@@ -25,8 +25,8 @@ class Workspace:
     def __init__(self, folderPath):
         self.folderPath = folderPath
     
-    # controlImg is asked so that bestFitness can be calculated because
-    # evolution doesn't keep a harcoded record of the fitnesses
+    # receives keword to assemble the filePath to .pkl file
+    # containing an evolution List 
     def evolution(self,keyword):
         basePath = self.folderPath + '/' + keyword
         pklPath = basePath + '.pkl'
@@ -34,7 +34,7 @@ class Workspace:
         # existent: boolean -> indicates if pkl file exists or not
         existent = self.stageFile(pklPath)
         
-        ev = [];
+        ev = []
         
         if existent:
             with open(pklPath, 'rb') as file: 
@@ -102,43 +102,10 @@ class Workspace:
                 print() # spacing for next print
                 
         return isExistent
-                    
-        
-        
-#     def getFile(plkPath):
-
-            
-            
-            
+                            
     def dump(self,pklPath,evolution):
-        with open(pklPath, 'wb') as file: 
-            pickle.dump(evolution, file) 
-                    
-
-                
-                
-                
-                
-                
-                
-                
-# # save progress
-# import pickle
-
-# # .pkl file path constructon
-# folderPath = 'storage/'
-# filePath = folderPath + keyword + '.pkl'
-
-# # uncomment if you want to load progress
-# with open(filePath, 'rb') as file: 
-#     evolution = pickle.load(file)
-    
-                
-                
-                
-                
-                
-                
-                
-                
+        # # uncomment if you want to load progress
+        # with open(pklPath, 'rb') as file: 
+        #     evolution = pickle.load(file)
+            
 ws = Workspace('workspace')

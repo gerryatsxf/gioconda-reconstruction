@@ -1,7 +1,4 @@
 import numpy as np
-# import vertices_processor as vpr
-# import matrix_blending as mxb
-
 import tools.vertices as vpr
 from tools.blend import blend
 

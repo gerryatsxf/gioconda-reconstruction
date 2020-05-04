@@ -5,8 +5,6 @@ def fitness(controlImg, testImg):
     res = abs(controlImg-testImg)
     return np.sum(res)
 
-
-    
 def calculateFitnesses(populationDna,controlImg):
     
     (m,n,l) = populationDna.shape
