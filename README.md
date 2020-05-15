@@ -51,7 +51,7 @@ $ pip install numpy matplotlib scikit-image jupyter
 
 ## About
 
-**About Genetic Algorithms**
+**Genetic Algorithms**
 
 In computer science and mathematical optimization, a metaheuristic is a higher-level procedure or heuristic designed to find, generate, or select a heuristic (partial search algorithm) that may provide a sufficiently good solution to an optimization problem, especially with incomplete or imperfect information or limited computation capacity. Metaheuristics sample a set of solutions which is too large to be completely sampled. Metaheuristics may make few assumptions about the optimization problem being solved, and so they may be usable for a variety of problems.
 
