@@ -78,10 +78,6 @@ This code was originally written as a homework for the Computational Physics II 
 
 The result is a composition of random triangles making a rough recreation of the original Gioconda.
 
-
-**TODO**: Add flowcharts
-
-
 ## Author
 
-* **Gerardo Mijares** - [lapsusdev](https://lapsusdev.com)
+* **Gerardo Mijares** - [gmijares.me](https://gmijares.me)
