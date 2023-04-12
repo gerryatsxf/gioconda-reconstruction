@@ -80,4 +80,4 @@ The result is a composition of random triangles making a rough recreation of the
 
 ## Author
 
-* **Gerardo Mijares** - [gmijares.me](https://gmijares.me)
+* **Gerardo Mijares** - [gmijares.me](http://gmijares.me)
